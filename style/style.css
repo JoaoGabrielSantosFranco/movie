@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Blood";
+    src: url(BloodLust.ttf);
+  }
+  
+  * {
+    font-family: Blood;
+    font-weight: 400;
+  }
+
+
+.principal{
+    text-align: center;
+
+}
+
+html, body {
+   
+    background-color:  rgb(0, 0, 0);
+  }
+
+
+.container {
+display:flex;
+flex-direction:row;
+justify-content: center;
+
+}
+
+.a {
+    font-size: 120px;
+    font-weight: 600;
+    color: transparent;
+    text-shadow: 10px 12px 10px #8d000079, 0px 0px rgb(108, 1, 1);
+    margin: 0px;
+}
